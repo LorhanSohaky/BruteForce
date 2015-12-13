@@ -18,12 +18,6 @@ bool A();
 bool B(int position);
 bool check();
 
-int main() {
-	if(bruteForce(4,2,"testador")) {
-	}
-	return 0;
-}
-
 bool bruteForce(int leng, int opt, char *prog) {
 	/*
 		leng use when you know the length of the password
