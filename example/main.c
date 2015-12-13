@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Brute-Force.c"
+#include "BruteForce.h"
 
 int main(){
   if(bruteForce(3,1,"testador")) {
