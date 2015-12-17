@@ -1,19 +1,19 @@
 # ALGORITMO DE FORÇA BRUTA EM C #
 
-## LICENÇA ##
+## LICENÇA
 **MIT**
 [Leia a licença](LICENSE)
 
-## COMPILADOR UTILIZADO ##
+## COMPILADOR UTILIZADO
 ***GCC (TDM-1) 4.7.1 -> Windows***
 
-## OBJETIVO ##
+## OBJETIVO
 Demonstrar o funcionamento do algoritmo de força bruta.
 
-## Notas: ##
+## Notas:
 *Esse algoritmo foi desenvolvido apenas para fins educativos.*
 
-## COMO USAR ##
+## COMO USAR
 Basicamente irá chamar a função *bruteForce()* com seus respectivos parâmetros. São eles:
 - int leng: Aqui se passa o tamanho da frase, no caso de não saber deve-se passar -1.
 - int opt: Aqui se passa o número de uma das opções de procura.
