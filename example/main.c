@@ -25,7 +25,7 @@ SOFTWARE.
 #include <BruteForce.h>
 
 int main(){
-    char *p= bruteForce(3,1,"testador.exe");
+    char *p= bruteForce(3,1,"testador");
 	printf("String:%s\n",p);
 	getchar();
     return 0;
