@@ -22,10 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 #include <stdio.h>
-#include "BruteForce.h"
+#include <BruteForce.h>
 
 int main(){
-  if(bruteForce(3,1,"testador")) {
-	}
-  return 0;
+    char *p= bruteForce(3,1,"testador.exe");
+	printf("String:%s\n",p);
+	getchar();
+    return 0;
 }
