@@ -25,22 +25,22 @@ SOFTWARE.
 #ifndef BRUTEFORCE_H
 #define BRUTEFORCE_H
 
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-typedef struct{
+typedef struct {
     char *checker;
     char *point;
     bool len;
     int length;
     int option;
-}Settings;
+} Settings;
 
-char * bruteForce(int leng, int opt, char *prog);
-bool A(Settings *sets);
-bool B(Settings *sets,int position);
-bool check(char *point, char *checker);
+char *bruteForce( int leng, int opt, char *prog );
+bool A( Settings *sets );
+bool B( Settings *sets, int position );
+bool check( char *point, char *checker );
 
 #endif
