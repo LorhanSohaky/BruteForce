@@ -93,7 +93,7 @@ bool A( Settings *sets ) {
 }
 
 bool B( Settings *sets, int position ) {
-    unsigned int imin, imax;
+    unsigned int imin = 0, imax = 0;
     // ASCII TABLE
     if( ( *sets ).option == 1 ) { // NUMBERS
         imin = 48;
@@ -140,7 +140,7 @@ bool check( char *point, char *checker ) {
         char t[strlen( checker ) + strlen( point ) + 2];
         sprintf( t, "%s %s", checker, point );
         int c = system( t );
-        if( c != -1 && c == 1 ) {
+        if( c == 1 ) {
             return true;
         } else {
             return false;
